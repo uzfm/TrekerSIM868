@@ -18,6 +18,9 @@ HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, uint8_t *pDat
 //static unsigned char TxData[500];
 static unsigned char RxData[500];
 //static unsigned char RxDataSize;
+
+
+
 const  unsigned char ReceivSize= 100;
 
 
