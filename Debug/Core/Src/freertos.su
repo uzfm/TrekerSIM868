@@ -1,0 +1,6 @@
+freertos.c:75:6:vApplicationGetIdleTaskMemory	24	static
+freertos.c:89:6:MX_FREERTOS_Init	128	static
+freertos.c:140:6:StartGPS	16	static
+freertos.c:163:6:StartGSM	16	static
+freertos.c:181:6:StartMasage	16	static
+freertos.c:199:6:StartSTATUS	16	static
