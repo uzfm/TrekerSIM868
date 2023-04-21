@@ -95,9 +95,11 @@ int main(void)
   MX_USART2_UART_Init();
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
+  HAL_GPIO_WritePin(GNSS_EN_GPIO_Port, GNSS_EN_Pin, GPIO_PIN_SET);
 
-  HAL_StatusTypeDef  ReadUart(void);
-                    ReadUart();
+  void ReadUart(void);
+       ReadUart();
+
 
   /* USER CODE END 2 */
 
