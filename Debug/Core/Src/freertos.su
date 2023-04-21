@@ -2,10 +2,5 @@ freertos.c:78:6:vApplicationGetIdleTaskMemory	24	static
 freertos.c:92:6:MX_FREERTOS_Init	128	static
 freertos.c:143:6:StartGPS	16	static
 freertos.c:168:6:StartGSM	16	static
-<<<<<<< HEAD
-freertos.c:192:6:StartMasage	16	static
-freertos.c:212:6:StartSTATUS	16	static
-=======
-freertos.c:191:6:StartMasage	16	static
-freertos.c:211:6:StartSTATUS	16	static
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
+freertos.c:201:6:StartMasage	16	static
+freertos.c:223:6:StartSTATUS	16	static
