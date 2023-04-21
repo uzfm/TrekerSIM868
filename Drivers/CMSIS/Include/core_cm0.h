@@ -29,7 +29,7 @@
 #endif
 
 #ifndef __CORE_CM0_H_GENERIC
-#define __CORE_CM0_H_GENERIC
+# define __CORE_CM0_H_GENERIC
 
 #include <stdint.h>
 
