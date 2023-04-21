@@ -3,7 +3,7 @@
 
 #define MAX_DATA_SIZE 256
 
-extern  unsigned char RxDataGPS[300];
+///extern  unsigned char RxDataGPS[300];
 struct Coordinates {
     float latitude;
     float longitude;

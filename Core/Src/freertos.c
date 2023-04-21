@@ -170,18 +170,11 @@ void StartGSM(void const * argument)
   /* USER CODE BEGIN StartGSM */
   /* Infinite loop */
   for(;;){
-<<<<<<< HEAD
    //ATcomand(AT);
    //HAL_GPIO_WritePin(GNSS_EN_GPIO_Port, GNSS_EN_Pin, GPIO_PIN_SET);
-    osDelay(2000);
+   // osDelay(2000);
    // HAL_GPIO_WritePin(GNSS_EN_GPIO_Port, GNSS_EN_Pin, GPIO_PIN_RESET);
-    //osDelay(5000);
-=======
-
-   ATcomand(AT);
-   osDelay(2000);
-
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
+    osDelay(5000);
 
   }
   /* USER CODE END StartGSM */
@@ -202,11 +195,7 @@ void StartMasage(void const * argument)
   /* Infinite loop */
   for(;;)
   {
-<<<<<<< HEAD
     osDelay(1000);
-=======
-    osDelay(10);
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
     SendToUSB();
 
   }

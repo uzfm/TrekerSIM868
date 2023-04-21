@@ -111,10 +111,7 @@ Common symbol       size              file
 hUsbDeviceFS        0x2c4             USB_DEVICE\App\usb_device.o
 hdma_usart2_rx      0x44              Core\Src\usart.o
 StringSMS           0xfa              USER\SIM808\Sim808.o
-<<<<<<< HEAD
 errno               0x4               c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-reent.o)
-=======
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 GPSHandle           0x4               Core\Src\freertos.o
 mySTATUSHandle      0x4               Core\Src\freertos.o
 RxDataGPS           0x12c             USER\MesageUSB.o
@@ -1471,7 +1468,6 @@ Discarded input sections
                 0x00000000        0x1 USER\MesageUSB.o
  .text.UsbWritCDM
                 0x00000000       0x16 USER\MesageUSB.o
-<<<<<<< HEAD
  .text.Print_GSM
                 0x00000000       0x12 USER\MesageUSB.o
  .text          0x00000000        0x0 USER\SIM808\GPS.o
@@ -1531,36 +1527,6 @@ Discarded input sections
  .ARM.attributes
                 0x00000000       0x33 USER\SIM808\Sim808.o
  COMMON         0x00000000       0xfb USER\SIM808\Sim808.o
-=======
- .text          0x00000000        0x0 USER\SIM808\Sim808.o
- .data          0x00000000        0x0 USER\SIM808\Sim808.o
- .bss           0x00000000        0x0 USER\SIM808\Sim808.o
- .bss.GPS       0x00000000       0x76 USER\SIM808\Sim808.o
- .bss.Buf       0x00000000      0x20c USER\SIM808\Sim808.o
- .bss.GSM       0x00000000       0x23 USER\SIM808\Sim808.o
- .bss.Instal_GSN_GPS
-                0x00000000        0x1 USER\SIM808\Sim808.o
- .data.comand1  0x00000000        0xd USER\SIM808\Sim808.o
- .data.comand   0x00000000        0xb USER\SIM808\Sim808.o
- .data.Strin1   0x00000000        0xe USER\SIM808\Sim808.o
- .bss.SMSDT     0x00000000        0x1 USER\SIM808\Sim808.o
- .data.TimeInst
-                0x00000000        0x4 USER\SIM808\Sim808.o
- .bss.SlipGSM   0x00000000        0x1 USER\SIM808\Sim808.o
- .bss.ERRORSTATUS
-                0x00000000        0x1 USER\SIM808\Sim808.o
- .text.ReadMessage
-                0x00000000       0x74 USER\SIM808\Sim808.o
- .bss.ComandWrit
-                0x00000000        0xa USER\SIM808\Sim808.o
- .text.Programa
-                0x00000000      0x748 USER\SIM808\Sim808.o
- .text.delayWritCom
-                0x00000000       0x44 USER\SIM808\Sim808.o
- .text.ReadUART
-                0x00000000       0x14 USER\SIM808\Sim808.o
- .text.ReadGSM  0x00000000      0x680 USER\SIM808\Sim808.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text          0x00000000       0x14 startup\startup_stm32f103xb.o
  .data          0x00000000        0x0 startup\startup_stm32f103xb.o
  .bss           0x00000000        0x0 startup\startup_stm32f103xb.o
@@ -1832,10 +1798,7 @@ LOAD USB_DEVICE\App\usbd_cdc_if.o
 LOAD USB_DEVICE\App\usbd_desc.o
 LOAD USB_DEVICE\Target\usbd_conf.o
 LOAD USER\MesageUSB.o
-<<<<<<< HEAD
 LOAD USER\SIM808\GPS.o
-=======
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 LOAD USER\SIM808\Sim808.o
 LOAD startup\startup_stm32f103xb.o
                 0x00000080                malloc_getpagesize_P = 0x80
@@ -1870,11 +1833,7 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
                 0x08000000                g_pfnVectors
                 0x0800010c                . = ALIGN (0x4)
 
-<<<<<<< HEAD
 .text           0x08000110     0xe5a8
-=======
-.text           0x08000110     0xb0f8
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
                 0x08000110                . = ALIGN (0x4)
  *(.text)
  .text          0x08000110       0x40 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
@@ -1959,92 +1918,39 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
                 0x08000ef0       0x3c Core\Src\freertos.o
                 0x08000ef0                StartGPS
  .text.StartGSM
-<<<<<<< HEAD
                 0x08000f2c       0x12 Core\Src\freertos.o
                 0x08000f2c                StartGSM
-=======
-                0x080002ec       0x18 Core\Src\freertos.o
-                0x080002ec                StartGSM
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.StartMasage
-<<<<<<< HEAD
                 0x08000f3e       0x16 Core\Src\freertos.o
                 0x08000f3e                StartMasage
-=======
-                0x08000304       0x14 Core\Src\freertos.o
-                0x08000304                StartMasage
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.StartSTATUS
-<<<<<<< HEAD
                 0x08000f54       0x38 Core\Src\freertos.o
                 0x08000f54                StartSTATUS
-=======
-                0x08000318       0x38 Core\Src\freertos.o
-                0x08000318                StartSTATUS
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.MX_GPIO_Init
-<<<<<<< HEAD
                 0x08000f8c      0x120 Core\Src\gpio.o
                 0x08000f8c                MX_GPIO_Init
  .text.main     0x080010ac       0x3c Core\Src\main.o
                 0x080010ac                main
-=======
-                0x08000350      0x120 Core\Src\gpio.o
-                0x08000350                MX_GPIO_Init
- .text.main     0x08000470       0x2e Core\Src\main.o
-                0x08000470                main
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.SystemClock_Config
-<<<<<<< HEAD
                 0x080010e8       0xb6 Core\Src\main.o
                 0x080010e8                SystemClock_Config
  *fill*         0x0800119e        0x2 
-=======
-                0x0800049e       0xb6 Core\Src\main.o
-                0x0800049e                SystemClock_Config
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_TIM_PeriodElapsedCallback
-<<<<<<< HEAD
                 0x080011a0       0x24 Core\Src\main.o
                 0x080011a0                HAL_TIM_PeriodElapsedCallback
-=======
-                0x08000554       0x24 Core\Src\main.o
-                0x08000554                HAL_TIM_PeriodElapsedCallback
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.Error_Handler
-<<<<<<< HEAD
                 0x080011c4        0x8 Core\Src\main.o
                 0x080011c4                Error_Handler
-=======
-                0x08000578        0x8 Core\Src\main.o
-                0x08000578                Error_Handler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.assert_failed
-<<<<<<< HEAD
                 0x080011cc       0x14 Core\Src\main.o
                 0x080011cc                assert_failed
-=======
-                0x08000580       0x14 Core\Src\main.o
-                0x08000580                assert_failed
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_MspInit
-<<<<<<< HEAD
                 0x080011e0       0x70 Core\Src\stm32f1xx_hal_msp.o
                 0x080011e0                HAL_MspInit
-=======
-                0x08000594       0x70 Core\Src\stm32f1xx_hal_msp.o
-                0x08000594                HAL_MspInit
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_InitTick
-<<<<<<< HEAD
                 0x08001250       0xac Core\Src\stm32f1xx_hal_timebase_tim.o
                 0x08001250                HAL_InitTick
-=======
-                0x08000604       0xac Core\Src\stm32f1xx_hal_timebase_tim.o
-                0x08000604                HAL_InitTick
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.NMI_Handler
-<<<<<<< HEAD
                 0x080012fc        0x6 Core\Src\stm32f1xx_it.o
                 0x080012fc                NMI_Handler
  .text.HardFault_Handler
@@ -2059,1293 +1965,477 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
  .text.UsageFault_Handler
                 0x08001314        0x6 Core\Src\stm32f1xx_it.o
                 0x08001314                UsageFault_Handler
-=======
-                0x080006b0        0x6 Core\Src\stm32f1xx_it.o
-                0x080006b0                NMI_Handler
- .text.HardFault_Handler
-                0x080006b6        0x6 Core\Src\stm32f1xx_it.o
-                0x080006b6                HardFault_Handler
- .text.MemManage_Handler
-                0x080006bc        0x6 Core\Src\stm32f1xx_it.o
-                0x080006bc                MemManage_Handler
- .text.BusFault_Handler
-                0x080006c2        0x6 Core\Src\stm32f1xx_it.o
-                0x080006c2                BusFault_Handler
- .text.UsageFault_Handler
-                0x080006c8        0x6 Core\Src\stm32f1xx_it.o
-                0x080006c8                UsageFault_Handler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.DebugMon_Handler
-<<<<<<< HEAD
                 0x0800131a        0xc Core\Src\stm32f1xx_it.o
                 0x0800131a                DebugMon_Handler
  *fill*         0x08001326        0x2 
-=======
-                0x080006ce        0xc Core\Src\stm32f1xx_it.o
-                0x080006ce                DebugMon_Handler
- *fill*         0x080006da        0x2 
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.DMA1_Channel4_IRQHandler
-<<<<<<< HEAD
                 0x08001328       0x14 Core\Src\stm32f1xx_it.o
                 0x08001328                DMA1_Channel4_IRQHandler
-=======
-                0x080006dc       0x14 Core\Src\stm32f1xx_it.o
-                0x080006dc                DMA1_Channel4_IRQHandler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.DMA1_Channel5_IRQHandler
-<<<<<<< HEAD
                 0x0800133c       0x14 Core\Src\stm32f1xx_it.o
                 0x0800133c                DMA1_Channel5_IRQHandler
-=======
-                0x080006f0       0x14 Core\Src\stm32f1xx_it.o
-                0x080006f0                DMA1_Channel5_IRQHandler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.DMA1_Channel6_IRQHandler
-<<<<<<< HEAD
                 0x08001350       0x14 Core\Src\stm32f1xx_it.o
                 0x08001350                DMA1_Channel6_IRQHandler
-=======
-                0x08000704       0x14 Core\Src\stm32f1xx_it.o
-                0x08000704                DMA1_Channel6_IRQHandler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.DMA1_Channel7_IRQHandler
-<<<<<<< HEAD
                 0x08001364       0x14 Core\Src\stm32f1xx_it.o
                 0x08001364                DMA1_Channel7_IRQHandler
-=======
-                0x08000718       0x14 Core\Src\stm32f1xx_it.o
-                0x08000718                DMA1_Channel7_IRQHandler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_LP_CAN1_RX0_IRQHandler
-<<<<<<< HEAD
                 0x08001378       0x14 Core\Src\stm32f1xx_it.o
                 0x08001378                USB_LP_CAN1_RX0_IRQHandler
-=======
-                0x0800072c       0x14 Core\Src\stm32f1xx_it.o
-                0x0800072c                USB_LP_CAN1_RX0_IRQHandler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.TIM1_UP_IRQHandler
-<<<<<<< HEAD
                 0x0800138c       0x14 Core\Src\stm32f1xx_it.o
                 0x0800138c                TIM1_UP_IRQHandler
-=======
-                0x08000740       0x14 Core\Src\stm32f1xx_it.o
-                0x08000740                TIM1_UP_IRQHandler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USART1_IRQHandler
-<<<<<<< HEAD
                 0x080013a0       0x14 Core\Src\stm32f1xx_it.o
                 0x080013a0                USART1_IRQHandler
-=======
-                0x08000754       0x14 Core\Src\stm32f1xx_it.o
-                0x08000754                USART1_IRQHandler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USART2_IRQHandler
-<<<<<<< HEAD
                 0x080013b4       0x14 Core\Src\stm32f1xx_it.o
                 0x080013b4                USART2_IRQHandler
  .text._sbrk    0x080013c8       0x58 Core\Src\syscalls.o
                 0x080013c8                _sbrk
-=======
-                0x08000768       0x14 Core\Src\stm32f1xx_it.o
-                0x08000768                USART2_IRQHandler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.SystemInit
-<<<<<<< HEAD
                 0x08001420        0xc Core\Src\system_stm32f1xx.o
                 0x08001420                SystemInit
-=======
-                0x0800077c        0xc Core\Src\system_stm32f1xx.o
-                0x0800077c                SystemInit
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.MX_TIM2_Init
-<<<<<<< HEAD
                 0x0800142c        0xc Core\Src\tim.o
                 0x0800142c                MX_TIM2_Init
-=======
-                0x08000788        0xc Core\Src\tim.o
-                0x08000788                MX_TIM2_Init
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.MX_USART1_UART_Init
-<<<<<<< HEAD
                 0x08001438       0x54 Core\Src\usart.o
                 0x08001438                MX_USART1_UART_Init
-=======
-                0x08000794       0x54 Core\Src\usart.o
-                0x08000794                MX_USART1_UART_Init
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.MX_USART2_UART_Init
-<<<<<<< HEAD
                 0x0800148c       0x54 Core\Src\usart.o
                 0x0800148c                MX_USART2_UART_Init
-=======
-                0x080007e8       0x54 Core\Src\usart.o
-                0x080007e8                MX_USART2_UART_Init
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_UART_MspInit
-<<<<<<< HEAD
                 0x080014e0      0x27c Core\Src\usart.o
                 0x080014e0                HAL_UART_MspInit
-=======
-                0x0800083c      0x27c Core\Src\usart.o
-                0x0800083c                HAL_UART_MspInit
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_Init
-<<<<<<< HEAD
                 0x0800175c       0x2c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
                 0x0800175c                HAL_Init
-=======
-                0x08000ab8       0x2c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
-                0x08000ab8                HAL_Init
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_IncTick
-<<<<<<< HEAD
                 0x08001788       0x24 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
                 0x08001788                HAL_IncTick
-=======
-                0x08000ae4       0x24 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
-                0x08000ae4                HAL_IncTick
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_GetTick
-<<<<<<< HEAD
                 0x080017ac       0x14 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
                 0x080017ac                HAL_GetTick
-=======
-                0x08000b08       0x14 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
-                0x08000b08                HAL_GetTick
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.__NVIC_SetPriorityGrouping
-<<<<<<< HEAD
                 0x080017c0       0x48 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
-=======
-                0x08000b1c       0x48 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.__NVIC_GetPriorityGrouping
-<<<<<<< HEAD
                 0x08001808       0x1c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
-=======
-                0x08000b64       0x1c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.__NVIC_EnableIRQ
-<<<<<<< HEAD
                 0x08001824       0x38 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
-=======
-                0x08000b80       0x38 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.__NVIC_SetPriority
-<<<<<<< HEAD
                 0x0800185c       0x54 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
-=======
-                0x08000bb8       0x54 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.NVIC_EncodePriority
-<<<<<<< HEAD
                 0x080018b0       0x60 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
-=======
-                0x08000c0c       0x60 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_NVIC_SetPriorityGrouping
-<<<<<<< HEAD
                 0x08001910       0x40 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
                 0x08001910                HAL_NVIC_SetPriorityGrouping
-=======
-                0x08000c6c       0x40 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
-                0x08000c6c                HAL_NVIC_SetPriorityGrouping
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_NVIC_SetPriority
-<<<<<<< HEAD
                 0x08001950       0x58 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
                 0x08001950                HAL_NVIC_SetPriority
-=======
-                0x08000cac       0x58 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
-                0x08000cac                HAL_NVIC_SetPriority
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_NVIC_EnableIRQ
-<<<<<<< HEAD
                 0x080019a8       0x30 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
                 0x080019a8                HAL_NVIC_EnableIRQ
-=======
-                0x08000d04       0x30 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
-                0x08000d04                HAL_NVIC_EnableIRQ
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_DMA_Init
-<<<<<<< HEAD
                 0x080019d8      0x200 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
                 0x080019d8                HAL_DMA_Init
-=======
-                0x08000d34      0x200 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
-                0x08000d34                HAL_DMA_Init
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_DMA_Start_IT
-<<<<<<< HEAD
                 0x08001bd8       0xdc Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
                 0x08001bd8                HAL_DMA_Start_IT
-=======
-                0x08000f34       0xdc Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
-                0x08000f34                HAL_DMA_Start_IT
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_DMA_Abort
-<<<<<<< HEAD
                 0x08001cb4       0x74 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
                 0x08001cb4                HAL_DMA_Abort
-=======
-                0x08001010       0x74 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
-                0x08001010                HAL_DMA_Abort
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_DMA_Abort_IT
-<<<<<<< HEAD
                 0x08001d28       0xf8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
                 0x08001d28                HAL_DMA_Abort_IT
-=======
-                0x08001084       0xf8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
-                0x08001084                HAL_DMA_Abort_IT
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_DMA_IRQHandler
-<<<<<<< HEAD
                 0x08001e20      0x224 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
                 0x08001e20                HAL_DMA_IRQHandler
-=======
-                0x0800117c      0x224 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
-                0x0800117c                HAL_DMA_IRQHandler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.DMA_SetConfig
-<<<<<<< HEAD
                 0x08002044       0x5a Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
  *fill*         0x0800209e        0x2 
-=======
-                0x080013a0       0x5a Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
- *fill*         0x080013fa        0x2 
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_GPIO_Init
-<<<<<<< HEAD
                 0x080020a0      0x474 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o
                 0x080020a0                HAL_GPIO_Init
-=======
-                0x080013fc      0x474 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o
-                0x080013fc                HAL_GPIO_Init
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_GPIO_WritePin
-<<<<<<< HEAD
                 0x08002514       0x64 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o
                 0x08002514                HAL_GPIO_WritePin
-=======
-                0x08001870       0x64 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o
-                0x08001870                HAL_GPIO_WritePin
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_PCD_Init
-<<<<<<< HEAD
                 0x08002578      0x230 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
                 0x08002578                HAL_PCD_Init
-=======
-                0x080018d4      0x230 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
-                0x080018d4                HAL_PCD_Init
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_PCD_Start
-<<<<<<< HEAD
                 0x080027a8       0x4c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
                 0x080027a8                HAL_PCD_Start
-=======
-                0x08001b04       0x4c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
-                0x08001b04                HAL_PCD_Start
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_PCD_IRQHandler
-<<<<<<< HEAD
                 0x080027f4      0x2aa Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
                 0x080027f4                HAL_PCD_IRQHandler
-=======
-                0x08001b50      0x2aa Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
-                0x08001b50                HAL_PCD_IRQHandler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_PCD_SetAddress
-<<<<<<< HEAD
                 0x08002a9e       0x4a Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
                 0x08002a9e                HAL_PCD_SetAddress
-=======
-                0x08001dfa       0x4a Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
-                0x08001dfa                HAL_PCD_SetAddress
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_PCD_EP_Open
-<<<<<<< HEAD
                 0x08002ae8       0xcc Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
                 0x08002ae8                HAL_PCD_EP_Open
-=======
-                0x08001e44       0xcc Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
-                0x08001e44                HAL_PCD_EP_Open
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_PCD_EP_Close
-<<<<<<< HEAD
                 0x08002bb4       0x90 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
                 0x08002bb4                HAL_PCD_EP_Close
-=======
-                0x08001f10       0x90 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
-                0x08001f10                HAL_PCD_EP_Close
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_PCD_EP_Receive
-<<<<<<< HEAD
                 0x08002c44       0x7a Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
                 0x08002c44                HAL_PCD_EP_Receive
-=======
-                0x08001fa0       0x7a Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
-                0x08001fa0                HAL_PCD_EP_Receive
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_PCD_EP_GetRxCount
-<<<<<<< HEAD
                 0x08002cbe       0x2e Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
                 0x08002cbe                HAL_PCD_EP_GetRxCount
-=======
-                0x0800201a       0x2e Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
-                0x0800201a                HAL_PCD_EP_GetRxCount
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_PCD_EP_Transmit
-<<<<<<< HEAD
                 0x08002cec       0x86 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
                 0x08002cec                HAL_PCD_EP_Transmit
-=======
-                0x08002048       0x86 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
-                0x08002048                HAL_PCD_EP_Transmit
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_PCD_EP_SetStall
-<<<<<<< HEAD
                 0x08002d72       0xc0 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
                 0x08002d72                HAL_PCD_EP_SetStall
-=======
-                0x080020ce       0xc0 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
-                0x080020ce                HAL_PCD_EP_SetStall
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_PCD_EP_ClrStall
-<<<<<<< HEAD
                 0x08002e32       0xa8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
                 0x08002e32                HAL_PCD_EP_ClrStall
-=======
-                0x0800218e       0xa8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
-                0x0800218e                HAL_PCD_EP_ClrStall
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.PCD_EP_ISR_Handler
-<<<<<<< HEAD
                 0x08002eda      0x600 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
-=======
-                0x08002236      0x600 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_PCD_EP_DB_Receive
-<<<<<<< HEAD
                 0x080034da      0x21a Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
-=======
-                0x08002836      0x21a Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_PCD_EP_DB_Transmit
-<<<<<<< HEAD
                 0x080036f4      0x7de Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
-=======
-                0x08002a50      0x7de Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_PCDEx_PMAConfig
-<<<<<<< HEAD
                 0x08003ed2       0x84 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.o
                 0x08003ed2                HAL_PCDEx_PMAConfig
  *fill*         0x08003f56        0x2 
-=======
-                0x0800322e       0x84 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.o
-                0x0800322e                HAL_PCDEx_PMAConfig
- *fill*         0x080032b2        0x2 
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_RCC_OscConfig
-<<<<<<< HEAD
                 0x08003f58      0x6e0 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
                 0x08003f58                HAL_RCC_OscConfig
-=======
-                0x080032b4      0x6e0 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
-                0x080032b4                HAL_RCC_OscConfig
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_RCC_ClockConfig
-<<<<<<< HEAD
                 0x08004638      0x320 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
                 0x08004638                HAL_RCC_ClockConfig
-=======
-                0x08003994      0x320 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
-                0x08003994                HAL_RCC_ClockConfig
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_RCC_GetSysClockFreq
-<<<<<<< HEAD
                 0x08004958       0xc4 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
                 0x08004958                HAL_RCC_GetSysClockFreq
-=======
-                0x08003cb4       0xc4 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
-                0x08003cb4                HAL_RCC_GetSysClockFreq
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_RCC_GetHCLKFreq
-<<<<<<< HEAD
                 0x08004a1c       0x14 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
                 0x08004a1c                HAL_RCC_GetHCLKFreq
-=======
-                0x08003d78       0x14 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
-                0x08003d78                HAL_RCC_GetHCLKFreq
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_RCC_GetPCLK1Freq
-<<<<<<< HEAD
                 0x08004a30       0x28 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
                 0x08004a30                HAL_RCC_GetPCLK1Freq
-=======
-                0x08003d8c       0x28 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
-                0x08003d8c                HAL_RCC_GetPCLK1Freq
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_RCC_GetPCLK2Freq
-<<<<<<< HEAD
                 0x08004a58       0x28 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
                 0x08004a58                HAL_RCC_GetPCLK2Freq
-=======
-                0x08003db4       0x28 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
-                0x08003db4                HAL_RCC_GetPCLK2Freq
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_RCC_GetClockConfig
-<<<<<<< HEAD
                 0x08004a80       0x84 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
                 0x08004a80                HAL_RCC_GetClockConfig
-=======
-                0x08003ddc       0x84 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
-                0x08003ddc                HAL_RCC_GetClockConfig
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.RCC_Delay
-<<<<<<< HEAD
                 0x08004b04       0x3c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
-=======
-                0x08003e60       0x3c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_RCCEx_PeriphCLKConfig
-<<<<<<< HEAD
                 0x08004b40      0x214 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o
                 0x08004b40                HAL_RCCEx_PeriphCLKConfig
-=======
-                0x08003e9c      0x214 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o
-                0x08003e9c                HAL_RCCEx_PeriphCLKConfig
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_TIM_Base_Init
-<<<<<<< HEAD
                 0x08004d54      0x154 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
                 0x08004d54                HAL_TIM_Base_Init
-=======
-                0x080040b0      0x154 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
-                0x080040b0                HAL_TIM_Base_Init
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_TIM_Base_MspInit
-<<<<<<< HEAD
                 0x08004ea8       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
                 0x08004ea8                HAL_TIM_Base_MspInit
  *fill*         0x08004eba        0x2 
-=======
-                0x08004204       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
-                0x08004204                HAL_TIM_Base_MspInit
- *fill*         0x08004216        0x2 
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_TIM_Base_Start_IT
-<<<<<<< HEAD
                 0x08004ebc       0xd8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
                 0x08004ebc                HAL_TIM_Base_Start_IT
-=======
-                0x08004218       0xd8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
-                0x08004218                HAL_TIM_Base_Start_IT
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_TIM_IRQHandler
-<<<<<<< HEAD
                 0x08004f94      0x210 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
                 0x08004f94                HAL_TIM_IRQHandler
-=======
-                0x080042f0      0x210 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
-                0x080042f0                HAL_TIM_IRQHandler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_TIM_OC_DelayElapsedCallback
-<<<<<<< HEAD
                 0x080051a4       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
                 0x080051a4                HAL_TIM_OC_DelayElapsedCallback
-=======
-                0x08004500       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
-                0x08004500                HAL_TIM_OC_DelayElapsedCallback
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_TIM_IC_CaptureCallback
-<<<<<<< HEAD
                 0x080051b6       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
                 0x080051b6                HAL_TIM_IC_CaptureCallback
-=======
-                0x08004512       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
-                0x08004512                HAL_TIM_IC_CaptureCallback
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_TIM_PWM_PulseFinishedCallback
-<<<<<<< HEAD
                 0x080051c8       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
                 0x080051c8                HAL_TIM_PWM_PulseFinishedCallback
-=======
-                0x08004524       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
-                0x08004524                HAL_TIM_PWM_PulseFinishedCallback
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_TIM_TriggerCallback
-<<<<<<< HEAD
                 0x080051da       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
                 0x080051da                HAL_TIM_TriggerCallback
-=======
-                0x08004536       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
-                0x08004536                HAL_TIM_TriggerCallback
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.TIM_Base_SetConfig
-<<<<<<< HEAD
                 0x080051ec       0xc4 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
                 0x080051ec                TIM_Base_SetConfig
-=======
-                0x08004548       0xc4 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
-                0x08004548                TIM_Base_SetConfig
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_TIMEx_CommutCallback
-<<<<<<< HEAD
                 0x080052b0       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o
                 0x080052b0                HAL_TIMEx_CommutCallback
-=======
-                0x0800460c       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o
-                0x0800460c                HAL_TIMEx_CommutCallback
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_TIMEx_BreakCallback
-<<<<<<< HEAD
                 0x080052c2       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o
                 0x080052c2                HAL_TIMEx_BreakCallback
-=======
-                0x0800461e       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o
-                0x0800461e                HAL_TIMEx_BreakCallback
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_UART_Init
-<<<<<<< HEAD
                 0x080052d4      0x150 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
                 0x080052d4                HAL_UART_Init
-=======
-                0x08004630      0x150 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-                0x08004630                HAL_UART_Init
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_UART_Transmit_DMA
-<<<<<<< HEAD
                 0x08005424       0xd8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
                 0x08005424                HAL_UART_Transmit_DMA
-=======
-                0x08004780       0xd8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-                0x08004780                HAL_UART_Transmit_DMA
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_UARTEx_ReceiveToIdle_DMA
-<<<<<<< HEAD
                 0x080054fc       0x9e Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
                 0x080054fc                HAL_UARTEx_ReceiveToIdle_DMA
  *fill*         0x0800559a        0x2 
-=======
-                0x08004858       0x9e Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-                0x08004858                HAL_UARTEx_ReceiveToIdle_DMA
- *fill*         0x080048f6        0x2 
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_UART_IRQHandler
-<<<<<<< HEAD
                 0x0800559c      0x358 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
                 0x0800559c                HAL_UART_IRQHandler
-=======
-                0x080048f8      0x358 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-                0x080048f8                HAL_UART_IRQHandler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_UART_TxCpltCallback
-<<<<<<< HEAD
                 0x080058f4       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
                 0x080058f4                HAL_UART_TxCpltCallback
-=======
-                0x08004c50       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-                0x08004c50                HAL_UART_TxCpltCallback
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_UART_TxHalfCpltCallback
-<<<<<<< HEAD
                 0x08005906       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
                 0x08005906                HAL_UART_TxHalfCpltCallback
-=======
-                0x08004c62       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-                0x08004c62                HAL_UART_TxHalfCpltCallback
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_UART_RxCpltCallback
-<<<<<<< HEAD
                 0x08005918       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
                 0x08005918                HAL_UART_RxCpltCallback
-=======
-                0x08004c74       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-                0x08004c74                HAL_UART_RxCpltCallback
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_UART_RxHalfCpltCallback
-<<<<<<< HEAD
                 0x0800592a       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
                 0x0800592a                HAL_UART_RxHalfCpltCallback
-=======
-                0x08004c86       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-                0x08004c86                HAL_UART_RxHalfCpltCallback
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_UART_ErrorCallback
-<<<<<<< HEAD
                 0x0800593c       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
                 0x0800593c                HAL_UART_ErrorCallback
-=======
-                0x08004c98       0x12 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-                0x08004c98                HAL_UART_ErrorCallback
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.UART_DMATransmitCplt
-<<<<<<< HEAD
                 0x0800594e       0x52 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-=======
-                0x08004caa       0x52 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.UART_DMATxHalfCplt
-<<<<<<< HEAD
                 0x080059a0       0x1c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-=======
-                0x08004cfc       0x1c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.UART_DMAReceiveCplt
-<<<<<<< HEAD
                 0x080059bc       0x96 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-=======
-                0x08004d18       0x96 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.UART_DMARxHalfCplt
-<<<<<<< HEAD
                 0x08005a52       0x36 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-=======
-                0x08004dae       0x36 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.UART_DMAError
-<<<<<<< HEAD
                 0x08005a88       0x94 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-=======
-                0x08004de4       0x94 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.UART_Start_Receive_DMA
-<<<<<<< HEAD
                 0x08005b1c       0xc8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
                 0x08005b1c                UART_Start_Receive_DMA
-=======
-                0x08004e78       0xc8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-                0x08004e78                UART_Start_Receive_DMA
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.UART_EndTxTransfer
-<<<<<<< HEAD
                 0x08005be4       0x2a Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-=======
-                0x08004f40       0x2a Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.UART_EndRxTransfer
-<<<<<<< HEAD
                 0x08005c0e       0x58 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-=======
-                0x08004f6a       0x58 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.UART_DMAAbortOnError
-<<<<<<< HEAD
                 0x08005c66       0x28 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-=======
-                0x08004fc2       0x28 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.UART_Transmit_IT
-<<<<<<< HEAD
                 0x08005c8e       0x9c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-=======
-                0x08004fea       0x9c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.UART_EndTransmit_IT
-<<<<<<< HEAD
                 0x08005d2a       0x30 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-=======
-                0x08005086       0x30 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.UART_Receive_IT
-<<<<<<< HEAD
                 0x08005d5a      0x152 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-=======
-                0x080050b6      0x152 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.UART_SetConfig
-<<<<<<< HEAD
                 0x08005eac      0x19c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
-=======
-                0x08005208      0x19c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_CoreInit
-<<<<<<< HEAD
                 0x08006048       0x20 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x08006048                USB_CoreInit
-=======
-                0x080053a4       0x20 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x080053a4                USB_CoreInit
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_EnableGlobalInt
-<<<<<<< HEAD
                 0x08006068       0x2c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x08006068                USB_EnableGlobalInt
-=======
-                0x080053c4       0x2c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x080053c4                USB_EnableGlobalInt
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_DisableGlobalInt
-<<<<<<< HEAD
                 0x08006094       0x34 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x08006094                USB_DisableGlobalInt
-=======
-                0x080053f0       0x34 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x080053f0                USB_DisableGlobalInt
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_SetCurrentMode
-<<<<<<< HEAD
                 0x080060c8       0x18 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x080060c8                USB_SetCurrentMode
-=======
-                0x08005424       0x18 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x08005424                USB_SetCurrentMode
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_DevInit
-<<<<<<< HEAD
                 0x080060e0       0x40 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x080060e0                USB_DevInit
-=======
-                0x0800543c       0x40 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x0800543c                USB_DevInit
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_ActivateEndpoint
-<<<<<<< HEAD
                 0x08006120      0x6c8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x08006120                USB_ActivateEndpoint
-=======
-                0x0800547c      0x6c8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x0800547c                USB_ActivateEndpoint
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_DeactivateEndpoint
-<<<<<<< HEAD
                 0x080067e8      0x3d8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x080067e8                USB_DeactivateEndpoint
-=======
-                0x08005b44      0x3d8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x08005b44                USB_DeactivateEndpoint
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_EPStartXfer
-<<<<<<< HEAD
                 0x08006bc0     0x160e Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x08006bc0                USB_EPStartXfer
-=======
-                0x08005f1c     0x160e Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x08005f1c                USB_EPStartXfer
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_EPSetStall
-<<<<<<< HEAD
                 0x080081ce       0xa0 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x080081ce                USB_EPSetStall
-=======
-                0x0800752a       0xa0 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x0800752a                USB_EPSetStall
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_EPClearStall
-<<<<<<< HEAD
                 0x0800826e      0x15a Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x0800826e                USB_EPClearStall
-=======
-                0x080075ca      0x15a Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x080075ca                USB_EPClearStall
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_SetDevAddress
-<<<<<<< HEAD
                 0x080083c8       0x26 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x080083c8                USB_SetDevAddress
-=======
-                0x08007724       0x26 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x08007724                USB_SetDevAddress
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_DevConnect
-<<<<<<< HEAD
                 0x080083ee       0x14 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x080083ee                USB_DevConnect
-=======
-                0x0800774a       0x14 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x0800774a                USB_DevConnect
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_DevDisconnect
-<<<<<<< HEAD
                 0x08008402       0x14 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x08008402                USB_DevDisconnect
-=======
-                0x0800775e       0x14 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x0800775e                USB_DevDisconnect
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_ReadInterrupts
-<<<<<<< HEAD
                 0x08008416       0x1e Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x08008416                USB_ReadInterrupts
-=======
-                0x08007772       0x1e Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x08007772                USB_ReadInterrupts
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_EP0_OutStart
-<<<<<<< HEAD
                 0x08008434       0x16 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x08008434                USB_EP0_OutStart
-=======
-                0x08007790       0x16 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x08007790                USB_EP0_OutStart
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_WritePMA
-<<<<<<< HEAD
                 0x0800844a       0x88 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x0800844a                USB_WritePMA
-=======
-                0x080077a6       0x88 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x080077a6                USB_WritePMA
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USB_ReadPMA
-<<<<<<< HEAD
                 0x080084d2       0x9e Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
                 0x080084d2                USB_ReadPMA
-=======
-                0x0800782e       0x9e Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
-                0x0800782e                USB_ReadPMA
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_Init
-<<<<<<< HEAD
                 0x08008570       0xf4 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
-=======
-                0x080078cc       0xf4 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_DeInit
-<<<<<<< HEAD
                 0x08008664       0x6e Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
-=======
-                0x080079c0       0x6e Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_Setup
-<<<<<<< HEAD
                 0x080086d2      0x140 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
-=======
-                0x08007a2e      0x140 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_DataIn
-<<<<<<< HEAD
                 0x08008812       0xa6 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
-=======
-                0x08007b6e       0xa6 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_DataOut
-<<<<<<< HEAD
                 0x080088b8       0x56 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
-=======
-                0x08007c14       0x56 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_EP0_RxReady
-<<<<<<< HEAD
                 0x0800890e       0x50 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
  *fill*         0x0800895e        0x2 
-=======
-                0x08007c6a       0x50 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
- *fill*         0x08007cba        0x2 
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_GetFSCfgDesc
-<<<<<<< HEAD
                 0x08008960       0x20 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
-=======
-                0x08007cbc       0x20 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_GetHSCfgDesc
-<<<<<<< HEAD
                 0x08008980       0x20 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
-=======
-                0x08007cdc       0x20 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_GetOtherSpeedCfgDesc
-<<<<<<< HEAD
                 0x080089a0       0x20 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
-=======
-                0x08007cfc       0x20 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_GetDeviceQualifierDescriptor
-<<<<<<< HEAD
                 0x080089c0       0x20 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
                 0x080089c0                USBD_CDC_GetDeviceQualifierDescriptor
-=======
-                0x08007d1c       0x20 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
-                0x08007d1c                USBD_CDC_GetDeviceQualifierDescriptor
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_RegisterInterface
-<<<<<<< HEAD
                 0x080089e0       0x2c Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
                 0x080089e0                USBD_CDC_RegisterInterface
-=======
-                0x08007d3c       0x2c Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
-                0x08007d3c                USBD_CDC_RegisterInterface
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_SetTxBuffer
-<<<<<<< HEAD
                 0x08008a0c       0x32 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
                 0x08008a0c                USBD_CDC_SetTxBuffer
-=======
-                0x08007d68       0x32 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
-                0x08007d68                USBD_CDC_SetTxBuffer
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_SetRxBuffer
-<<<<<<< HEAD
                 0x08008a3e       0x26 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
                 0x08008a3e                USBD_CDC_SetRxBuffer
-=======
-                0x08007d9a       0x26 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
-                0x08007d9a                USBD_CDC_SetRxBuffer
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_TransmitPacket
-<<<<<<< HEAD
                 0x08008a64       0x5e Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
                 0x08008a64                USBD_CDC_TransmitPacket
-=======
-                0x08007dc0       0x5e Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
-                0x08007dc0                USBD_CDC_TransmitPacket
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CDC_ReceivePacket
-<<<<<<< HEAD
                 0x08008ac2       0x54 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
                 0x08008ac2                USBD_CDC_ReceivePacket
-=======
-                0x08007e1e       0x54 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
-                0x08007e1e                USBD_CDC_ReceivePacket
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_Init
-<<<<<<< HEAD
                 0x08008b16       0x56 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
                 0x08008b16                USBD_Init
-=======
-                0x08007e72       0x56 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
-                0x08007e72                USBD_Init
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_RegisterClass
-<<<<<<< HEAD
                 0x08008b6c       0x32 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
                 0x08008b6c                USBD_RegisterClass
-=======
-                0x08007ec8       0x32 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
-                0x08007ec8                USBD_RegisterClass
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_Start
-<<<<<<< HEAD
                 0x08008b9e       0x18 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
                 0x08008b9e                USBD_Start
-=======
-                0x08007efa       0x18 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
-                0x08007efa                USBD_Start
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_RunTestMode
-<<<<<<< HEAD
                 0x08008bb6       0x14 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
                 0x08008bb6                USBD_RunTestMode
-=======
-                0x08007f12       0x14 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
-                0x08007f12                USBD_RunTestMode
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_SetClassConfig
-<<<<<<< HEAD
                 0x08008bca       0x3e Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
                 0x08008bca                USBD_SetClassConfig
-=======
-                0x08007f26       0x3e Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
-                0x08007f26                USBD_SetClassConfig
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_ClrClassConfig
-<<<<<<< HEAD
                 0x08008c08       0x26 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
                 0x08008c08                USBD_ClrClassConfig
-=======
-                0x08007f64       0x26 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
-                0x08007f64                USBD_ClrClassConfig
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_LL_SetupStage
-<<<<<<< HEAD
                 0x08008c2e       0x96 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
                 0x08008c2e                USBD_LL_SetupStage
-=======
-                0x08007f8a       0x96 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
-                0x08007f8a                USBD_LL_SetupStage
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_LL_DataOutStage
-<<<<<<< HEAD
                 0x08008cc4       0xe2 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
                 0x08008cc4                USBD_LL_DataOutStage
-=======
-                0x08008020       0xe2 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
-                0x08008020                USBD_LL_DataOutStage
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_LL_DataInStage
-<<<<<<< HEAD
                 0x08008da6      0x14a Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
                 0x08008da6                USBD_LL_DataInStage
-=======
-                0x08008102      0x14a Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
-                0x08008102                USBD_LL_DataInStage
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_LL_Reset
-<<<<<<< HEAD
                 0x08008ef0       0x82 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
                 0x08008ef0                USBD_LL_Reset
-=======
-                0x0800824c       0x82 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
-                0x0800824c                USBD_LL_Reset
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_LL_SetSpeed
-<<<<<<< HEAD
                 0x08008f72       0x1e Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
                 0x08008f72                USBD_LL_SetSpeed
-=======
-                0x080082ce       0x1e Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
-                0x080082ce                USBD_LL_SetSpeed
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_LL_Suspend
-<<<<<<< HEAD
                 0x08008f90       0x28 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
                 0x08008f90                USBD_LL_Suspend
-=======
-                0x080082ec       0x28 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
-                0x080082ec                USBD_LL_Suspend
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_LL_Resume
-<<<<<<< HEAD
                 0x08008fb8       0x2a Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
                 0x08008fb8                USBD_LL_Resume
-=======
-                0x08008314       0x2a Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
-                0x08008314                USBD_LL_Resume
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_LL_SOF
-<<<<<<< HEAD
                 0x08008fe2       0x34 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
                 0x08008fe2                USBD_LL_SOF
  *fill*         0x08009016        0x2 
-=======
-                0x0800833e       0x34 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
-                0x0800833e                USBD_LL_SOF
- *fill*         0x08008372        0x2 
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_StdDevReq
-<<<<<<< HEAD
                 0x08009018       0xd4 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
                 0x08009018                USBD_StdDevReq
-=======
-                0x08008374       0xd4 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-                0x08008374                USBD_StdDevReq
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_StdItfReq
-<<<<<<< HEAD
                 0x080090ec       0x8c Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
                 0x080090ec                USBD_StdItfReq
-=======
-                0x08008448       0x8c Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-                0x08008448                USBD_StdItfReq
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_StdEPReq
-<<<<<<< HEAD
                 0x08009178      0x2ba Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
                 0x08009178                USBD_StdEPReq
  *fill*         0x08009432        0x2 
-=======
-                0x080084d4      0x2ba Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-                0x080084d4                USBD_StdEPReq
- *fill*         0x0800878e        0x2 
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_GetDescriptor
-<<<<<<< HEAD
                 0x08009434      0x2d0 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-=======
-                0x08008790      0x2d0 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_SetAddress
-<<<<<<< HEAD
                 0x08009704       0x84 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-=======
-                0x08008a60       0x84 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_SetConfig
-<<<<<<< HEAD
                 0x08009788      0x11c Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-=======
-                0x08008ae4      0x11c Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_GetConfig
-<<<<<<< HEAD
                 0x080098a4       0x68 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-=======
-                0x08008c00       0x68 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_GetStatus
-<<<<<<< HEAD
                 0x0800990c       0x66 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-=======
-                0x08008c68       0x66 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_SetFeature
-<<<<<<< HEAD
                 0x08009972       0x28 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-=======
-                0x08008cce       0x28 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_ClrFeature
-<<<<<<< HEAD
                 0x0800999a       0x42 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-=======
-                0x08008cf6       0x42 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_ParseSetupRequest
-<<<<<<< HEAD
                 0x080099dc       0x78 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
                 0x080099dc                USBD_ParseSetupRequest
-=======
-                0x08008d38       0x78 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-                0x08008d38                USBD_ParseSetupRequest
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CtlError
-<<<<<<< HEAD
                 0x08009a54       0x22 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
                 0x08009a54                USBD_CtlError
-=======
-                0x08008db0       0x22 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-                0x08008db0                USBD_CtlError
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_GetString
-<<<<<<< HEAD
                 0x08009a76       0x84 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
                 0x08009a76                USBD_GetString
-=======
-                0x08008dd2       0x84 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-                0x08008dd2                USBD_GetString
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_GetLen
-<<<<<<< HEAD
                 0x08009afa       0x2e Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-=======
-                0x08008e56       0x2e Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CtlSendData
-<<<<<<< HEAD
                 0x08009b28       0x38 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
                 0x08009b28                USBD_CtlSendData
-=======
-                0x08008e84       0x38 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
-                0x08008e84                USBD_CtlSendData
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CtlContinueSendData
-<<<<<<< HEAD
                 0x08009b60       0x24 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
                 0x08009b60                USBD_CtlContinueSendData
-=======
-                0x08008ebc       0x24 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
-                0x08008ebc                USBD_CtlContinueSendData
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CtlPrepareRx
-<<<<<<< HEAD
                 0x08009b84       0x3c Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
                 0x08009b84                USBD_CtlPrepareRx
-=======
-                0x08008ee0       0x3c Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
-                0x08008ee0                USBD_CtlPrepareRx
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CtlContinueRx
-<<<<<<< HEAD
                 0x08009bc0       0x24 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
                 0x08009bc0                USBD_CtlContinueRx
-=======
-                0x08008f1c       0x24 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
-                0x08008f1c                USBD_CtlContinueRx
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CtlSendStatus
-<<<<<<< HEAD
                 0x08009be4       0x26 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
                 0x08009be4                USBD_CtlSendStatus
-=======
-                0x08008f40       0x26 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
-                0x08008f40                USBD_CtlSendStatus
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.USBD_CtlReceiveStatus
-<<<<<<< HEAD
                 0x08009c0a       0x26 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
                 0x08009c0a                USBD_CtlReceiveStatus
-=======
-                0x08008f66       0x26 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
-                0x08008f66                USBD_CtlReceiveStatus
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.makeFreeRtosPriority
-<<<<<<< HEAD
                 0x08009c30       0x2e Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
-=======
-                0x08008f8c       0x2e Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.osKernelStart
-<<<<<<< HEAD
                 0x08009c5e        0xe Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
                 0x08009c5e                osKernelStart
-=======
-                0x08008fba        0xe Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
-                0x08008fba                osKernelStart
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.osThreadCreate
-<<<<<<< HEAD
                 0x08009c6c       0x98 Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
                 0x08009c6c                osThreadCreate
  .text.osDelay  0x08009d04       0x28 Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
                 0x08009d04                osDelay
-=======
-                0x08008fc8       0x98 Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
-                0x08008fc8                osThreadCreate
- .text.osDelay  0x08009060       0x28 Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
-                0x08009060                osDelay
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.vListInitialise
-<<<<<<< HEAD
                 0x08009d2c       0x3e Middlewares\Third_Party\FreeRTOS\Source\list.o
                 0x08009d2c                vListInitialise
-=======
-                0x08009088       0x3e Middlewares\Third_Party\FreeRTOS\Source\list.o
-                0x08009088                vListInitialise
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.vListInitialiseItem
-<<<<<<< HEAD
                 0x08009d6a       0x18 Middlewares\Third_Party\FreeRTOS\Source\list.o
                 0x08009d6a                vListInitialiseItem
-=======
-                0x080090c6       0x18 Middlewares\Third_Party\FreeRTOS\Source\list.o
-                0x080090c6                vListInitialiseItem
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.vListInsertEnd
-<<<<<<< HEAD
                 0x08009d82       0x46 Middlewares\Third_Party\FreeRTOS\Source\list.o
                 0x08009d82                vListInsertEnd
-=======
-                0x080090de       0x46 Middlewares\Third_Party\FreeRTOS\Source\list.o
-                0x080090de                vListInsertEnd
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.vListInsert
-<<<<<<< HEAD
                 0x08009dc8       0x70 Middlewares\Third_Party\FreeRTOS\Source\list.o
                 0x08009dc8                vListInsert
-=======
-                0x08009124       0x70 Middlewares\Third_Party\FreeRTOS\Source\list.o
-                0x08009124                vListInsert
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.uxListRemove
-<<<<<<< HEAD
                 0x08009e38       0x52 Middlewares\Third_Party\FreeRTOS\Source\list.o
                 0x08009e38                uxListRemove
  *fill*         0x08009e8a        0x2 
-=======
-                0x08009194       0x52 Middlewares\Third_Party\FreeRTOS\Source\list.o
-                0x08009194                uxListRemove
- *fill*         0x080091e6        0x2 
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.pxPortInitialiseStack
-<<<<<<< HEAD
                 0x08009e8c       0x58 Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.o
                 0x08009e8c                pxPortInitialiseStack
-=======
-                0x080091e8       0x58 Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.o
-                0x080091e8                pxPortInitialiseStack
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.prvTaskExitError
-<<<<<<< HEAD
                 0x08009ee4       0x50 Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.o
  *fill*         0x08009f34        0xc 
-=======
-                0x08009240       0x50 Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.SVC_Handler
                 0x08009f40       0x28 Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.o
                 0x08009f40                SVC_Handler
@@ -3530,7 +2620,6 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
  .text.USBD_Get_USB_Status
                 0x0800b8e0       0x58 USB_DEVICE\Target\usbd_conf.o
  .text.ReadComand
-<<<<<<< HEAD
                 0x0800b938       0x24 USER\MesageUSB.o
                 0x0800b938                ReadComand
  .text.SendToUSB
@@ -3539,27 +2628,10 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
  .text.SendUSB_DT
                 0x0800b9cc       0x64 USER\MesageUSB.o
                 0x0800b9cc                SendUSB_DT
-=======
-                0x0800ac88       0x38 USER\MesageUSB.o
-                0x0800ac88                ReadComand
- .text.Print_GSM
-                0x0800acc0       0x12 USER\MesageUSB.o
-                0x0800acc0                Print_GSM
- *fill*         0x0800acd2        0x2 
- .text.SendToUSB
-                0x0800acd4       0x44 USER\MesageUSB.o
-                0x0800acd4                SendToUSB
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.HAL_UARTEx_RxEventCallback
-<<<<<<< HEAD
                 0x0800ba30      0x1bc USER\MesageUSB.o
                 0x0800ba30                HAL_UARTEx_RxEventCallback
-=======
-                0x0800ad18      0x114 USER\MesageUSB.o
-                0x0800ad18                HAL_UARTEx_RxEventCallback
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.ReadUart
-<<<<<<< HEAD
                 0x0800bbec       0x34 USER\MesageUSB.o
                 0x0800bbec                ReadUart
  .text.get_coordinates
@@ -3568,23 +2640,10 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
  .text.GPS_Read
                 0x0800be0c       0xc0 USER\SIM808\GPS.o
                 0x0800be0c                GPS_Read
-=======
-                0x0800ae2c       0x20 USER\MesageUSB.o
-                0x0800ae2c                ReadUart
- .text.ATcomand
-                0x0800ae4c      0x300 USER\SIM808\Sim808.o
-                0x0800ae4c                ATcomand
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.Reset_Handler
-<<<<<<< HEAD
                 0x0800becc       0x48 startup\startup_stm32f103xb.o
                 0x0800becc                Reset_Handler
-=======
-                0x0800b14c       0x48 startup\startup_stm32f103xb.o
-                0x0800b14c                Reset_Handler
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.Default_Handler
-<<<<<<< HEAD
                 0x0800bf14        0x2 startup\startup_stm32f103xb.o
                 0x0800bf14                RTC_Alarm_IRQHandler
                 0x0800bf14                EXTI2_IRQHandler
@@ -3626,48 +2685,7 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
                 0x0800bf16                atof
  .text.__errno  0x0800bf1c        0xc c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-errno.o)
                 0x0800bf1c                __errno
-=======
-                0x0800b194        0x2 startup\startup_stm32f103xb.o
-                0x0800b194                RTC_Alarm_IRQHandler
-                0x0800b194                EXTI2_IRQHandler
-                0x0800b194                TIM1_CC_IRQHandler
-                0x0800b194                PVD_IRQHandler
-                0x0800b194                EXTI3_IRQHandler
-                0x0800b194                EXTI0_IRQHandler
-                0x0800b194                I2C2_EV_IRQHandler
-                0x0800b194                ADC1_2_IRQHandler
-                0x0800b194                SPI1_IRQHandler
-                0x0800b194                TAMPER_IRQHandler
-                0x0800b194                USART3_IRQHandler
-                0x0800b194                RTC_IRQHandler
-                0x0800b194                CAN1_RX1_IRQHandler
-                0x0800b194                TIM4_IRQHandler
-                0x0800b194                I2C1_EV_IRQHandler
-                0x0800b194                TIM3_IRQHandler
-                0x0800b194                RCC_IRQHandler
-                0x0800b194                TIM1_TRG_COM_IRQHandler
-                0x0800b194                DMA1_Channel1_IRQHandler
-                0x0800b194                Default_Handler
-                0x0800b194                EXTI15_10_IRQHandler
-                0x0800b194                EXTI9_5_IRQHandler
-                0x0800b194                SPI2_IRQHandler
-                0x0800b194                EXTI4_IRQHandler
-                0x0800b194                USB_HP_CAN1_TX_IRQHandler
-                0x0800b194                DMA1_Channel3_IRQHandler
-                0x0800b194                WWDG_IRQHandler
-                0x0800b194                TIM2_IRQHandler
-                0x0800b194                TIM1_BRK_IRQHandler
-                0x0800b194                EXTI1_IRQHandler
-                0x0800b194                I2C2_ER_IRQHandler
-                0x0800b194                DMA1_Channel2_IRQHandler
-                0x0800b194                CAN1_SCE_IRQHandler
-                0x0800b194                FLASH_IRQHandler
-                0x0800b194                I2C1_ER_IRQHandler
-                0x0800b194                USBWakeUp_IRQHandler
- *fill*         0x0800b196        0x2 
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .text.__libc_init_array
-<<<<<<< HEAD
                 0x0800bf28       0x48 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
                 0x0800bf28                __libc_init_array
  .text.memcpy   0x0800bf70       0x16 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-memcpy-stub.o)
@@ -3817,88 +2835,35 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
                 0x0800e490                __ieee754_fmod
  .text.matherr  0x0800e69c        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libm.a(lib_a-s_matherr.o)
                 0x0800e69c                matherr
-=======
-                0x0800b198       0x48 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
-                0x0800b198                __libc_init_array
- .text.memset   0x0800b1e0       0x10 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-memset.o)
-                0x0800b1e0                memset
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  *(.glue_7)
-<<<<<<< HEAD
  .glue_7        0x0800e6a0        0x0 linker stubs
-=======
- .glue_7        0x0800b1f0        0x0 linker stubs
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  *(.glue_7t)
-<<<<<<< HEAD
  .glue_7t       0x0800e6a0        0x0 linker stubs
-=======
- .glue_7t       0x0800b1f0        0x0 linker stubs
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  *(.eh_frame)
-<<<<<<< HEAD
  .eh_frame      0x0800e6a0        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
-=======
- .eh_frame      0x0800b1f0        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  *(.init)
-<<<<<<< HEAD
  .init          0x0800e6a0        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crti.o
                 0x0800e6a0                _init
  .init          0x0800e6a4        0x8 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtn.o
-=======
- .init          0x0800b1f0        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crti.o
-                0x0800b1f0                _init
- .init          0x0800b1f4        0x8 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtn.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  *(.fini)
-<<<<<<< HEAD
  .fini          0x0800e6ac        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crti.o
                 0x0800e6ac                _fini
  .fini          0x0800e6b0        0x8 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtn.o
                 0x0800e6b8                . = ALIGN (0x4)
                 0x0800e6b8                _etext = .
-=======
- .fini          0x0800b1fc        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crti.o
-                0x0800b1fc                _fini
- .fini          0x0800b200        0x8 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtn.o
-                0x0800b208                . = ALIGN (0x4)
-                0x0800b208                _etext = .
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .vfp11_veneer   0x0800e6b8        0x0
  .vfp11_veneer  0x0800e6b8        0x0 linker stubs
-=======
-.vfp11_veneer   0x0800b208        0x0
- .vfp11_veneer  0x0800b208        0x0 linker stubs
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .v4_bx          0x0800e6b8        0x0
  .v4_bx         0x0800e6b8        0x0 linker stubs
-=======
-.v4_bx          0x0800b208        0x0
- .v4_bx         0x0800b208        0x0 linker stubs
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .iplt           0x0800e6b8        0x0
  .iplt          0x0800e6b8        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
-=======
-.iplt           0x0800b208        0x0
- .iplt          0x0800b208        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .rodata         0x0800e6b8      0x5b0
                 0x0800e6b8                . = ALIGN (0x4)
-=======
-.rodata         0x0800b208      0x3a0
-                0x0800b208                . = ALIGN (0x4)
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  *(.rodata)
-<<<<<<< HEAD
  .rodata        0x0800e6b8       0x8c Core\Src\freertos.o
  .rodata        0x0800e744       0x3b Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
  *fill*         0x0800e77f        0x1 
@@ -3918,42 +2883,12 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
  .rodata        0x0800e944       0x36 USB_DEVICE\App\usbd_desc.o
  *fill*         0x0800e97a        0x2 
  .rodata        0x0800e97c       0x19 USER\SIM808\GPS.o
-=======
- .rodata        0x0800b208       0x8c Core\Src\freertos.o
- .rodata        0x0800b294       0x3b Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
- *fill*         0x0800b2cf        0x1 
- .rodata        0x0800b2d0       0x38 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
- .rodata        0x0800b308       0x39 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o
- *fill*         0x0800b341        0x3 
- .rodata        0x0800b344       0x38 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
- .rodata        0x0800b37c       0x4a Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
- *fill*         0x0800b3c6        0x2 
- .rodata        0x0800b3c8       0x4e Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o
- *fill*         0x0800b416        0x2 
- .rodata        0x0800b418       0x38 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
- .rodata        0x0800b450       0x39 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
- *fill*         0x0800b489        0x3 
- .rodata        0x0800b48c        0x5 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- *fill*         0x0800b491        0x3 
- .rodata        0x0800b494       0x36 USB_DEVICE\App\usbd_desc.o
- *fill*         0x0800b4ca        0x2 
- .rodata        0x0800b4cc       0xc4 USER\SIM808\Sim808.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  *(.rodata*)
-<<<<<<< HEAD
  *fill*         0x0800e995        0x3 
-=======
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .rodata.AHBPrescTable
-<<<<<<< HEAD
                 0x0800e998       0x10 Core\Src\system_stm32f1xx.o
                 0x0800e998                AHBPrescTable
-=======
-                0x0800b590       0x10 Core\Src\system_stm32f1xx.o
-                0x0800b590                AHBPrescTable
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .rodata.APBPrescTable
-<<<<<<< HEAD
                 0x0800e9a8        0x8 Core\Src\system_stm32f1xx.o
                 0x0800e9a8                APBPrescTable
  .rodata._strtod_l.str1.1
@@ -3991,93 +2926,39 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
  *fill*         0x0800ec55        0x3 
  .rodata.Zero   0x0800ec58       0x10 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libm.a(lib_a-e_fmod.o)
                 0x0800ec68                . = ALIGN (0x4)
-=======
-                0x0800b5a0        0x8 Core\Src\system_stm32f1xx.o
-                0x0800b5a0                APBPrescTable
-                0x0800b5a8                . = ALIGN (0x4)
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .rel.dyn        0x0800ec68        0x0
  .rel.iplt      0x0800ec68        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
-=======
-.rel.dyn        0x0800b5a8        0x0
- .rel.iplt      0x0800b5a8        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-<<<<<<< HEAD
 .ARM            0x0800ec68        0x0
                 0x0800ec68                __exidx_start = .
-=======
-.ARM            0x0800b5a8        0x0
-                0x0800b5a8                __exidx_start = .
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  *(.ARM.exidx*)
-<<<<<<< HEAD
                 0x0800ec68                __exidx_end = .
-=======
-                0x0800b5a8                __exidx_end = .
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .preinit_array  0x0800ec68        0x0
                 0x0800ec68                PROVIDE (__preinit_array_start, .)
-=======
-.preinit_array  0x0800b5a8        0x0
-                0x0800b5a8                PROVIDE (__preinit_array_start, .)
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  *(.preinit_array*)
-<<<<<<< HEAD
                 0x0800ec68                PROVIDE (__preinit_array_end, .)
-=======
-                0x0800b5a8                PROVIDE (__preinit_array_end, .)
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .init_array     0x0800ec68        0x4
                 0x0800ec68                PROVIDE (__init_array_start, .)
-=======
-.init_array     0x0800b5a8        0x4
-                0x0800b5a8                PROVIDE (__init_array_start, .)
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  *(SORT(.init_array.*))
  *(.init_array*)
-<<<<<<< HEAD
  .init_array    0x0800ec68        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
                 0x0800ec6c                PROVIDE (__init_array_end, .)
-=======
- .init_array    0x0800b5a8        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
-                0x0800b5ac                PROVIDE (__init_array_end, .)
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .fini_array     0x0800ec6c        0x4
-=======
-.fini_array     0x0800b5ac        0x4
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
                 [!provide]                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
-<<<<<<< HEAD
  .fini_array    0x0800ec6c        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
-=======
- .fini_array    0x0800b5ac        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
                 [!provide]                PROVIDE (__fini_array_end, .)
-<<<<<<< HEAD
                 0x0800ec70                _sidata = LOADADDR (.data)
-=======
-                0x0800b5b0                _sidata = LOADADDR (.data)
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .data           0x20000000      0x354 load address 0x0800ec70
-=======
-.data           0x20000000      0x18c load address 0x0800b5b0
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -4127,7 +3008,6 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
  .data.USBD_StringSerial
                 0x20000164       0x1a USB_DEVICE\App\usbd_desc.o
                 0x20000164                USBD_StringSerial
-<<<<<<< HEAD
  *fill*         0x2000017e        0x2 
  .data._impure_ptr
                 0x20000180        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-impure.o)
@@ -4143,166 +3023,61 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
                 0x20000354                . = ALIGN (0x4)
  *fill*         0x20000351        0x3 
                 0x20000354                _edata = .
-=======
- .data.COMANDA  0x2000017e        0x1 USER\SIM808\Sim808.o
- *fill*         0x2000017f        0x1 
- .data.Strin    0x20000180        0x9 USER\SIM808\Sim808.o
-                0x20000180                Strin
- .data.SEND     0x20000189        0x1 USER\SIM808\Sim808.o
-                0x20000189                SEND
-                0x2000018c                . = ALIGN (0x4)
- *fill*         0x2000018a        0x2 
-                0x2000018c                _edata = .
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .igot.plt       0x20000354        0x0 load address 0x0800efc4
  .igot.plt      0x20000354        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
                 0x20000354                . = ALIGN (0x4)
-=======
-.igot.plt       0x2000018c        0x0 load address 0x0800b73c
- .igot.plt      0x2000018c        0x0 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
-                0x2000018c                . = ALIGN (0x4)
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .bss            0x20000354     0x1f58 load address 0x0800efc4
                 0x20000354                _sbss = .
                 0x20000354                __bss_start__ = _sbss
-=======
-.bss            0x2000018c     0x208c load address 0x0800b73c
-                0x2000018c                _sbss = .
-                0x2000018c                __bss_start__ = _sbss
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  *(.bss)
-<<<<<<< HEAD
  .bss           0x20000354       0x1c c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
-=======
- .bss           0x2000018c       0x1c c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtbegin.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  *(.bss*)
  .bss.xIdleTaskTCBBuffer
-<<<<<<< HEAD
                 0x20000370       0x54 Core\Src\freertos.o
-=======
-                0x200001a8       0x54 Core\Src\freertos.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.xIdleStack
-<<<<<<< HEAD
                 0x200003c4      0x200 Core\Src\freertos.o
  .bss.heap_end.5887
                 0x200005c4        0x4 Core\Src\syscalls.o
-=======
-                0x200001fc      0x200 Core\Src\freertos.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.cfgidx.8266
-<<<<<<< HEAD
                 0x200005c8        0x1 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
-=======
-                0x200003fc        0x1 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.ucMaxSysCallPriority
-<<<<<<< HEAD
                 0x200005c9        0x1 Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.o
  *fill*         0x200005ca        0x2 
-=======
-                0x200003fd        0x1 Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.o
- *fill*         0x200003fe        0x2 
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.ulMaxPRIGROUPValue
-<<<<<<< HEAD
                 0x200005cc        0x4 Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.o
  .bss.ucHeap    0x200005d0      0xc00 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
  .bss.xStart    0x200011d0        0x8 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
  .bss.pxEnd     0x200011d8        0x4 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
-=======
-                0x20000400        0x4 Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.o
- .bss.ucHeap    0x20000404      0xc00 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
- .bss.xStart    0x20001004        0x8 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
- .bss.pxEnd     0x2000100c        0x4 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.xFreeBytesRemaining
-<<<<<<< HEAD
                 0x200011dc        0x4 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
-=======
-                0x20001010        0x4 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.xMinimumEverFreeBytesRemaining
-<<<<<<< HEAD
                 0x200011e0        0x4 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
-=======
-                0x20001014        0x4 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.xBlockAllocatedBit
-<<<<<<< HEAD
                 0x200011e4        0x4 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
-=======
-                0x20001018        0x4 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.pxCurrentTCB
-<<<<<<< HEAD
                 0x200011e8        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
                 0x200011e8                pxCurrentTCB
-=======
-                0x2000101c        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
-                0x2000101c                pxCurrentTCB
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.pxReadyTasksLists
-<<<<<<< HEAD
                 0x200011ec       0x8c Middlewares\Third_Party\FreeRTOS\Source\tasks.o
-=======
-                0x20001020       0x8c Middlewares\Third_Party\FreeRTOS\Source\tasks.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.xDelayedTaskList1
-<<<<<<< HEAD
                 0x20001278       0x14 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
-=======
-                0x200010ac       0x14 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.xDelayedTaskList2
-<<<<<<< HEAD
                 0x2000128c       0x14 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
-=======
-                0x200010c0       0x14 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.pxDelayedTaskList
-<<<<<<< HEAD
                 0x200012a0        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
-=======
-                0x200010d4        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.pxOverflowDelayedTaskList
-<<<<<<< HEAD
                 0x200012a4        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
-=======
-                0x200010d8        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.xPendingReadyList
-<<<<<<< HEAD
                 0x200012a8       0x14 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
-=======
-                0x200010dc       0x14 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.xTasksWaitingTermination
-<<<<<<< HEAD
                 0x200012bc       0x14 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
-=======
-                0x200010f0       0x14 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.uxDeletedTasksWaitingCleanUp
-<<<<<<< HEAD
                 0x200012d0        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
-=======
-                0x20001104        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.xSuspendedTaskList
-<<<<<<< HEAD
                 0x200012d4       0x14 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
-=======
-                0x20001108       0x14 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .bss.uxCurrentNumberOfTasks
-<<<<<<< HEAD
                 0x200012e8        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
  .bss.xTickCount
                 0x200012ec        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
@@ -4342,51 +3117,7 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
  .bss.__malloc_sbrk_start
                 0x200016a8        0x4 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-nano-mallocr.o)
                 0x200016a8                __malloc_sbrk_start
-=======
-                0x2000111c        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .bss.xTickCount
-                0x20001120        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .bss.uxTopReadyPriority
-                0x20001124        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .bss.xSchedulerRunning
-                0x20001128        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .bss.uxPendedTicks
-                0x2000112c        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .bss.xYieldPending
-                0x20001130        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .bss.xNumOfOverflows
-                0x20001134        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .bss.uxTaskNumber
-                0x20001138        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .bss.xNextTaskUnblockTime
-                0x2000113c        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .bss.xIdleTaskHandle
-                0x20001140        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .bss.uxSchedulerSuspended
-                0x20001144        0x4 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .bss.BuferUsb  0x20001148       0x64 USB_DEVICE\App\usbd_cdc_if.o
- .bss.idx       0x200011ac        0x4 USB_DEVICE\App\usbd_cdc_if.o
-                0x200011ac                idx
- .bss.mem.8334  0x200011b0      0x220 USB_DEVICE\Target\usbd_conf.o
- .bss.RxData    0x200013d0      0x12c USER\MesageUSB.o
- .bss.statusDMA
-                0x200014fc        0x1 USER\MesageUSB.o
- *fill*         0x200014fd        0x3 
- .bss.SizeRxData
-                0x20001500        0x4 USER\MesageUSB.o
- .bss.SMS       0x20001504      0x1a6 USER\SIM808\Sim808.o
- .bss.Cauntidx  0x200016aa        0x1 USER\SIM808\Sim808.o
-                0x200016aa                Cauntidx
- .bss.COMPARE   0x200016ab        0x1 USER\SIM808\Sim808.o
-                0x200016ab                COMPARE
- .bss.ResComand
-                0x200016ac        0x1 USER\SIM808\Sim808.o
-                0x200016ac                ResComand
- .bss.ERRORAT   0x200016ad        0x1 USER\SIM808\Sim808.o
-                0x200016ad                ERRORAT
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  *(COMMON)
-<<<<<<< HEAD
  COMMON         0x200016ac       0x10 Core\Src\freertos.o
                 0x200016ac                GPSHandle
                 0x200016b0                mySTATUSHandle
@@ -4421,66 +3152,17 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
                 0x200022ac                . = ALIGN (0x4)
                 0x200022ac                _ebss = .
                 0x200022ac                __bss_end__ = _ebss
-=======
- *fill*         0x200016ae        0x2 
- COMMON         0x200016b0       0x10 Core\Src\freertos.o
-                0x200016b0                GPSHandle
-                0x200016b4                mySTATUSHandle
-                0x200016b8                MasageHandle
-                0x200016bc                GSMHandle
- COMMON         0x200016c0       0x48 Core\Src\stm32f1xx_hal_timebase_tim.o
-                0x200016c0                htim1
- COMMON         0x20001708      0x198 Core\Src\usart.o
-                0x20001708                hdma_usart2_rx
-                0x2000174c                hdma_usart1_tx
-                0x20001790                hdma_usart1_rx
-                0x200017d4                hdma_usart2_tx
-                0x20001818                huart1
-                0x2000185c                huart2
- COMMON         0x200018a0        0x4 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
-                0x200018a0                uwTick
- COMMON         0x200018a4      0x2c4 USB_DEVICE\App\usb_device.o
-                0x200018a4                hUsbDeviceFS
- COMMON         0x20001b68       0xc8 USB_DEVICE\App\usbd_cdc_if.o
-                0x20001b68                UserRxBufferFS
-                0x20001bcc                UserTxBufferFS
- COMMON         0x20001c30      0x200 USB_DEVICE\App\usbd_desc.o
-                0x20001c30                USBD_StrDesc
- COMMON         0x20001e30      0x2ec USB_DEVICE\Target\usbd_conf.o
-                0x20001e30                hpcd_USB_FS
- COMMON         0x2000211c       0xfb USER\SIM808\Sim808.o
-                0x2000211c                StringSMS
-                0x20002216                CantSmsOK
-                0x20002218                . = ALIGN (0x4)
- *fill*         0x20002217        0x1 
-                0x20002218                _ebss = .
-                0x20002218                __bss_end__ = _ebss
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
 ._user_heap_stack
-<<<<<<< HEAD
                 0x200022ac      0x600 load address 0x0800efc4
                 0x200022ac                . = ALIGN (0x4)
                 0x200022ac                PROVIDE (end, .)
-=======
-                0x20002218      0x600 load address 0x0800b73c
-                0x20002218                . = ALIGN (0x4)
-                0x20002218                PROVIDE (end, .)
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
                 [!provide]                PROVIDE (_end, .)
-<<<<<<< HEAD
                 0x200024ac                . = (. + _Min_Heap_Size)
  *fill*         0x200022ac      0x200 
                 0x200028ac                . = (. + _Min_Stack_Size)
  *fill*         0x200024ac      0x400 
                 0x200028ac                . = ALIGN (0x4)
-=======
-                0x20002418                . = (. + _Min_Heap_Size)
- *fill*         0x20002218      0x200 
-                0x20002818                . = (. + _Min_Stack_Size)
- *fill*         0x20002418      0x400 
-                0x20002818                . = ALIGN (0x4)
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
 /DISCARD/
  libc.a(*)
@@ -4567,25 +3249,12 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
  .ARM.attributes
                 0x00000743       0x33 USB_DEVICE\Target\usbd_conf.o
  .ARM.attributes
-<<<<<<< HEAD
                 0x00000776       0x33 USER\MesageUSB.o
-=======
-                0x00000776       0x33 USER\SIM808\Sim808.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .ARM.attributes
-<<<<<<< HEAD
                 0x000007a9       0x33 USER\SIM808\GPS.o
-=======
-                0x000007a9       0x21 startup\startup_stm32f103xb.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .ARM.attributes
-<<<<<<< HEAD
                 0x000007dc       0x21 startup\startup_stm32f103xb.o
-=======
-                0x000007ca       0x2d c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .ARM.attributes
-<<<<<<< HEAD
                 0x000007fd       0x2d c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-atof.o)
  .ARM.attributes
                 0x0000082a       0x2d c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-errno.o)
@@ -4685,22 +3354,12 @@ LOAD c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../l
                 0x00000fd5       0x1d c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m\libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
                 0x00000ff2       0x1d c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtn.o
-=======
-                0x000007f7       0x2d c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-memset.o)
- .ARM.attributes
-                0x00000824       0x1d c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m/crtn.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 OUTPUT(TrekerSIM868.elf elf32-littlearm)
 
-<<<<<<< HEAD
-.debug_info     0x00000000    0x210e3
-=======
-.debug_info     0x00000000    0x20039
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
+.debug_info     0x00000000    0x210c6
  .debug_info    0x00000000      0x379 Core\Src\dma.o
  .debug_info    0x00000379      0x608 Core\Src\freertos.o
  .debug_info    0x00000981      0x37a Core\Src\gpio.o
-<<<<<<< HEAD
  .debug_info    0x00000cfb     0x13c5 Core\Src\main.o
  .debug_info    0x000020c0      0x41d Core\Src\stm32f1xx_hal_msp.o
  .debug_info    0x000024dd      0x98d Core\Src\stm32f1xx_hal_timebase_tim.o
@@ -4734,56 +3393,14 @@ OUTPUT(TrekerSIM868.elf elf32-littlearm)
  .debug_info    0x0001c1be     0x1069 USB_DEVICE\App\usbd_cdc_if.o
  .debug_info    0x0001d227      0xd14 USB_DEVICE\App\usbd_desc.o
  .debug_info    0x0001df3b     0x1db3 USB_DEVICE\Target\usbd_conf.o
- .debug_info    0x0001fcee      0x8fc USER\MesageUSB.o
- .debug_info    0x000205ea      0xa7d USER\SIM808\GPS.o
- .debug_info    0x00021067       0x7c startup\startup_stm32f103xb.o
-=======
- .debug_info    0x00000cfb     0x134a Core\Src\main.o
- .debug_info    0x00002045      0x41d Core\Src\stm32f1xx_hal_msp.o
- .debug_info    0x00002462      0x98d Core\Src\stm32f1xx_hal_timebase_tim.o
- .debug_info    0x00002def      0xe31 Core\Src\stm32f1xx_it.o
- .debug_info    0x00003c20      0x29b Core\Src\system_stm32f1xx.o
- .debug_info    0x00003ebb      0x184 Core\Src\tim.o
- .debug_info    0x0000403f      0x9b7 Core\Src\usart.o
- .debug_info    0x000049f6      0x714 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
- .debug_info    0x0000510a      0xb52 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
- .debug_info    0x00005c5c      0x7ad Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
- .debug_info    0x00006409      0x69b Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o
- .debug_info    0x00006aa4     0x13f0 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
- .debug_info    0x00007e94      0x783 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.o
- .debug_info    0x00008617      0x80e Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
- .debug_info    0x00008e25      0x443 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o
- .debug_info    0x00009268     0x27ea Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
- .debug_info    0x0000ba52     0x13a5 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o
- .debug_info    0x0000cdf7     0x14e9 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
- .debug_info    0x0000e2e0     0x18b6 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
- .debug_info    0x0000fb96     0x17b1 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
- .debug_info    0x00011347     0x11d2 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
- .debug_info    0x00012519     0x1142 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
- .debug_info    0x0001365b      0xf33 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
- .debug_info    0x0001458e     0x1e5c Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
- .debug_info    0x000163ea      0xac8 Middlewares\Third_Party\FreeRTOS\Source\list.o
- .debug_info    0x00016eb2      0x4d5 Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.o
- .debug_info    0x00017387      0xbed Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
- .debug_info    0x00017f74     0x243e Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .debug_info    0x0001a3b2      0xe7b USB_DEVICE\App\usb_device.o
- .debug_info    0x0001b22d     0x1069 USB_DEVICE\App\usbd_cdc_if.o
- .debug_info    0x0001c296      0xd14 USB_DEVICE\App\usbd_desc.o
- .debug_info    0x0001cfaa     0x1db3 USB_DEVICE\Target\usbd_conf.o
- .debug_info    0x0001ed5d      0x7f5 USER\MesageUSB.o
- .debug_info    0x0001f552      0xa6b USER\SIM808\Sim808.o
- .debug_info    0x0001ffbd       0x7c startup\startup_stm32f103xb.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
+ .debug_info    0x0001fcee      0x8fb USER\MesageUSB.o
+ .debug_info    0x000205e9      0xa61 USER\SIM808\GPS.o
+ .debug_info    0x0002104a       0x7c startup\startup_stm32f103xb.o
 
-<<<<<<< HEAD
-.debug_abbrev   0x00000000     0x4c5a
-=======
-.debug_abbrev   0x00000000     0x4a4c
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
+.debug_abbrev   0x00000000     0x4c40
  .debug_abbrev  0x00000000      0x102 Core\Src\dma.o
  .debug_abbrev  0x00000102      0x169 Core\Src\freertos.o
  .debug_abbrev  0x0000026b      0x12f Core\Src\gpio.o
-<<<<<<< HEAD
  .debug_abbrev  0x0000039a      0x231 Core\Src\main.o
  .debug_abbrev  0x000005cb      0x10d Core\Src\stm32f1xx_hal_msp.o
  .debug_abbrev  0x000006d8      0x196 Core\Src\stm32f1xx_hal_timebase_tim.o
@@ -4818,51 +3435,10 @@ OUTPUT(TrekerSIM868.elf elf32-littlearm)
  .debug_abbrev  0x000042f8      0x288 USB_DEVICE\App\usbd_desc.o
  .debug_abbrev  0x00004580      0x2d6 USB_DEVICE\Target\usbd_conf.o
  .debug_abbrev  0x00004856      0x1e0 USER\MesageUSB.o
- .debug_abbrev  0x00004a36      0x212 USER\SIM808\GPS.o
- .debug_abbrev  0x00004c48       0x12 startup\startup_stm32f103xb.o
-=======
- .debug_abbrev  0x0000039a      0x233 Core\Src\main.o
- .debug_abbrev  0x000005cd      0x10d Core\Src\stm32f1xx_hal_msp.o
- .debug_abbrev  0x000006da      0x196 Core\Src\stm32f1xx_hal_timebase_tim.o
- .debug_abbrev  0x00000870      0x196 Core\Src\stm32f1xx_it.o
- .debug_abbrev  0x00000a06      0x12f Core\Src\system_stm32f1xx.o
- .debug_abbrev  0x00000b35       0xa9 Core\Src\tim.o
- .debug_abbrev  0x00000bde      0x1ae Core\Src\usart.o
- .debug_abbrev  0x00000d8c      0x1c2 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
- .debug_abbrev  0x00000f4e      0x2b6 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
- .debug_abbrev  0x00001204      0x1f9 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
- .debug_abbrev  0x000013fd      0x1bb Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o
- .debug_abbrev  0x000015b8      0x263 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
- .debug_abbrev  0x0000181b      0x183 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.o
- .debug_abbrev  0x0000199e      0x224 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
- .debug_abbrev  0x00001bc2      0x170 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o
- .debug_abbrev  0x00001d32      0x229 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
- .debug_abbrev  0x00001f5b      0x22f Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o
- .debug_abbrev  0x0000218a      0x258 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
- .debug_abbrev  0x000023e2      0x1cd Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
- .debug_abbrev  0x000025af      0x2a8 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
- .debug_abbrev  0x00002857      0x26b Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
- .debug_abbrev  0x00002ac2      0x29b Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
- .debug_abbrev  0x00002d5d      0x1db Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
- .debug_abbrev  0x00002f38      0x374 Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
- .debug_abbrev  0x000032ac      0x1cc Middlewares\Third_Party\FreeRTOS\Source\list.o
- .debug_abbrev  0x00003478      0x202 Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.o
- .debug_abbrev  0x0000367a      0x29b Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
- .debug_abbrev  0x00003915      0x333 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .debug_abbrev  0x00003c48      0x1b9 USB_DEVICE\App\usb_device.o
- .debug_abbrev  0x00003e01      0x288 USB_DEVICE\App\usbd_cdc_if.o
- .debug_abbrev  0x00004089      0x288 USB_DEVICE\App\usbd_desc.o
- .debug_abbrev  0x00004311      0x2d6 USB_DEVICE\Target\usbd_conf.o
- .debug_abbrev  0x000045e7      0x1f8 USER\MesageUSB.o
- .debug_abbrev  0x000047df      0x25b USER\SIM808\Sim808.o
- .debug_abbrev  0x00004a3a       0x12 startup\startup_stm32f103xb.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
+ .debug_abbrev  0x00004a36      0x1f8 USER\SIM808\GPS.o
+ .debug_abbrev  0x00004c2e       0x12 startup\startup_stm32f103xb.o
 
-<<<<<<< HEAD
 .debug_aranges  0x00000000     0x1908
-=======
-.debug_aranges  0x00000000     0x1868
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .debug_aranges
                 0x00000000       0x20 Core\Src\dma.o
  .debug_aranges
@@ -4934,29 +3510,15 @@ OUTPUT(TrekerSIM868.elf elf32-littlearm)
  .debug_aranges
                 0x000016e8       0x60 USB_DEVICE\App\usbd_desc.o
  .debug_aranges
-<<<<<<< HEAD
                 0x00001748      0x118 USB_DEVICE\Target\usbd_conf.o
-=======
-                0x000017b0       0x48 USER\MesageUSB.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .debug_aranges
-<<<<<<< HEAD
                 0x00001860       0x50 USER\MesageUSB.o
  .debug_aranges
                 0x000018b0       0x30 USER\SIM808\GPS.o
  .debug_aranges
                 0x000018e0       0x28 startup\startup_stm32f103xb.o
-=======
-                0x000017f8       0x48 USER\SIM808\Sim808.o
- .debug_aranges
-                0x00001840       0x28 startup\startup_stm32f103xb.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .debug_ranges   0x00000000     0x16d0
-=======
-.debug_ranges   0x00000000     0x1658
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .debug_ranges  0x00000000       0x10 Core\Src\dma.o
  .debug_ranges  0x00000010       0x38 Core\Src\freertos.o
  .debug_ranges  0x00000048       0x10 Core\Src\gpio.o
@@ -4964,7 +3526,6 @@ OUTPUT(TrekerSIM868.elf elf32-littlearm)
  .debug_ranges  0x00000088       0x10 Core\Src\stm32f1xx_hal_msp.o
  .debug_ranges  0x00000098       0x20 Core\Src\stm32f1xx_hal_timebase_tim.o
  .debug_ranges  0x000000b8       0x78 Core\Src\stm32f1xx_it.o
-<<<<<<< HEAD
  .debug_ranges  0x00000130       0xa0 Core\Src\syscalls.o
  .debug_ranges  0x000001d0       0x18 Core\Src\system_stm32f1xx.o
  .debug_ranges  0x000001e8       0x10 Core\Src\tim.o
@@ -4997,47 +3558,9 @@ OUTPUT(TrekerSIM868.elf elf32-littlearm)
  .debug_ranges  0x00001650       0x40 USER\MesageUSB.o
  .debug_ranges  0x00001690       0x20 USER\SIM808\GPS.o
  .debug_ranges  0x000016b0       0x20 startup\startup_stm32f103xb.o
-=======
- .debug_ranges  0x00000130       0x18 Core\Src\system_stm32f1xx.o
- .debug_ranges  0x00000148       0x10 Core\Src\tim.o
- .debug_ranges  0x00000158       0x28 Core\Src\usart.o
- .debug_ranges  0x00000180       0xd0 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
- .debug_ranges  0x00000250       0xf0 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
- .debug_ranges  0x00000340       0x70 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
- .debug_ranges  0x000003b0       0x48 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o
- .debug_ranges  0x000003f8      0x128 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
- .debug_ranges  0x00000520       0x28 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.o
- .debug_ranges  0x00000548       0x80 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
- .debug_ranges  0x000005c8       0x20 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o
- .debug_ranges  0x000005e8      0x3c0 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
- .debug_ranges  0x000009a8      0x158 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o
- .debug_ranges  0x00000b00      0x220 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
- .debug_ranges  0x00000d20       0xe0 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
- .debug_ranges  0x00000e00       0x80 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
- .debug_ranges  0x00000e80       0xa8 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
- .debug_ranges  0x00000f28       0x78 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
- .debug_ranges  0x00000fa0       0x40 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
- .debug_ranges  0x00000fe0      0x1c8 Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
- .debug_ranges  0x000011a8       0x30 Middlewares\Third_Party\FreeRTOS\Source\list.o
- .debug_ranges  0x000011d8       0x68 Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.o
- .debug_ranges  0x00001240       0x40 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
- .debug_ranges  0x00001280      0x198 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .debug_ranges  0x00001418       0x10 USB_DEVICE\App\usb_device.o
- .debug_ranges  0x00001428       0x30 USB_DEVICE\App\usbd_cdc_if.o
- .debug_ranges  0x00001458       0x50 USB_DEVICE\App\usbd_desc.o
- .debug_ranges  0x000014a8      0x108 USB_DEVICE\Target\usbd_conf.o
- .debug_ranges  0x000015b0       0x50 USER\MesageUSB.o
- .debug_ranges  0x00001600       0x38 USER\SIM808\Sim808.o
- .debug_ranges  0x00001638       0x20 startup\startup_stm32f103xb.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .debug_line     0x00000000     0xef8e
-=======
-.debug_line     0x00000000     0xefa0
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .debug_line    0x00000000      0x1e2 Core\Src\dma.o
-<<<<<<< HEAD
  .debug_line    0x000001e2      0x39a Core\Src\freertos.o
  .debug_line    0x0000057c      0x20c Core\Src\gpio.o
  .debug_line    0x00000788      0x41f Core\Src\main.o
@@ -5076,51 +3599,8 @@ OUTPUT(TrekerSIM868.elf elf32-littlearm)
  .debug_line    0x0000ea52      0x31b USER\MesageUSB.o
  .debug_line    0x0000ed6d      0x1a1 USER\SIM808\GPS.o
  .debug_line    0x0000ef0e       0x80 startup\startup_stm32f103xb.o
-=======
- .debug_line    0x000001e2      0x3a4 Core\Src\freertos.o
- .debug_line    0x00000586      0x20c Core\Src\gpio.o
- .debug_line    0x00000792      0x406 Core\Src\main.o
- .debug_line    0x00000b98      0x1eb Core\Src\stm32f1xx_hal_msp.o
- .debug_line    0x00000d83      0x284 Core\Src\stm32f1xx_hal_timebase_tim.o
- .debug_line    0x00001007      0x366 Core\Src\stm32f1xx_it.o
- .debug_line    0x0000136d      0x22b Core\Src\system_stm32f1xx.o
- .debug_line    0x00001598      0x1ca Core\Src\tim.o
- .debug_line    0x00001762      0x2f9 Core\Src\usart.o
- .debug_line    0x00001a5b      0x3f8 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
- .debug_line    0x00001e53      0x53b Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
- .debug_line    0x0000238e      0x74b Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
- .debug_line    0x00002ad9      0x563 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o
- .debug_line    0x0000303c      0x8dd Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
- .debug_line    0x00003919      0x284 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.o
- .debug_line    0x00003b9d      0x6bd Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
- .debug_line    0x0000425a      0x34a Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o
- .debug_line    0x000045a4     0x309d Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
- .debug_line    0x00007641     0x10e2 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o
- .debug_line    0x00008723      0xdc9 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
- .debug_line    0x000094ec      0x913 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
- .debug_line    0x00009dff      0x569 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
- .debug_line    0x0000a368      0x54b Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
- .debug_line    0x0000a8b3      0x5ef Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
- .debug_line    0x0000aea2      0x3b4 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
- .debug_line    0x0000b256      0x944 Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
- .debug_line    0x0000bb9a      0x366 Middlewares\Third_Party\FreeRTOS\Source\list.o
- .debug_line    0x0000bf00      0x399 Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.o
- .debug_line    0x0000c299      0x405 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
- .debug_line    0x0000c69e      0xe39 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .debug_line    0x0000d4d7      0x386 USB_DEVICE\App\usb_device.o
- .debug_line    0x0000d85d      0x3d6 USB_DEVICE\App\usbd_cdc_if.o
- .debug_line    0x0000dc33      0x3e8 USB_DEVICE\App\usbd_desc.o
- .debug_line    0x0000e01b      0x64b USB_DEVICE\Target\usbd_conf.o
- .debug_line    0x0000e666      0x2c5 USER\MesageUSB.o
- .debug_line    0x0000e92b      0x5f5 USER\SIM808\Sim808.o
- .debug_line    0x0000ef20       0x80 startup\startup_stm32f103xb.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .debug_str      0x00000000     0x734a
-=======
-.debug_str      0x00000000     0x72e7
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .debug_str     0x00000000      0x54e Core\Src\dma.o
                                 0x59b (size before relaxing)
  .debug_str     0x0000054e      0x349 Core\Src\freertos.o
@@ -5193,17 +3673,10 @@ OUTPUT(TrekerSIM868.elf elf32-littlearm)
                                 0x939 (size before relaxing)
  .debug_str     0x00007042      0x178 USB_DEVICE\Target\usbd_conf.o
                                0x146f (size before relaxing)
-<<<<<<< HEAD
  .debug_str     0x000071ba       0xa3 USER\MesageUSB.o
                                 0x7b3 (size before relaxing)
  .debug_str     0x0000725d       0xed USER\SIM808\GPS.o
-                                0x694 (size before relaxing)
-=======
- .debug_str     0x00006fba       0x7f USER\MesageUSB.o
-                                0x763 (size before relaxing)
- .debug_str     0x00007039      0x2ae USER\SIM808\Sim808.o
-                                0x58f (size before relaxing)
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
+                                0x68a (size before relaxing)
 
 .comment        0x00000000       0x7c
  .comment       0x00000000       0x7c Core\Src\dma.o
@@ -5244,17 +3717,9 @@ OUTPUT(TrekerSIM868.elf elf32-littlearm)
  .comment       0x0000007c       0x7d USB_DEVICE\App\usbd_desc.o
  .comment       0x0000007c       0x7d USB_DEVICE\Target\usbd_conf.o
  .comment       0x0000007c       0x7d USER\MesageUSB.o
-<<<<<<< HEAD
  .comment       0x0000007c       0x7d USER\SIM808\GPS.o
-=======
- .comment       0x0000007c       0x7d USER\SIM808\Sim808.o
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
 
-<<<<<<< HEAD
 .debug_frame    0x00000000     0x7238
-=======
-.debug_frame    0x00000000     0x6204
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
  .debug_frame   0x00000000       0x34 Core\Src\dma.o
  .debug_frame   0x00000034       0xe4 Core\Src\freertos.o
  .debug_frame   0x00000118       0x34 Core\Src\gpio.o
@@ -5262,7 +3727,6 @@ OUTPUT(TrekerSIM868.elf elf32-littlearm)
  .debug_frame   0x00000200       0x34 Core\Src\stm32f1xx_hal_msp.o
  .debug_frame   0x00000234       0x74 Core\Src\stm32f1xx_hal_timebase_tim.o
  .debug_frame   0x000002a8      0x188 Core\Src\stm32f1xx_it.o
-<<<<<<< HEAD
  .debug_frame   0x00000430      0x2d4 Core\Src\syscalls.o
  .debug_frame   0x00000704       0x58 Core\Src\system_stm32f1xx.o
  .debug_frame   0x0000075c       0x30 Core\Src\tim.o
@@ -5339,37 +3803,3 @@ OUTPUT(TrekerSIM868.elf elf32-littlearm)
  .debug_frame   0x000071a4       0x24 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m\libgcc.a(_arm_fixunsdfsi.o)
  .debug_frame   0x000071c8       0x24 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m\libgcc.a(_arm_truncdfsf2.o)
  .debug_frame   0x000071ec       0x4c c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7-m\libgcc.a(_arm_addsubsf3.o)
-=======
- .debug_frame   0x00000430       0x58 Core\Src\system_stm32f1xx.o
- .debug_frame   0x00000488       0x30 Core\Src\tim.o
- .debug_frame   0x000004b8       0x94 Core\Src\usart.o
- .debug_frame   0x0000054c      0x334 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.o
- .debug_frame   0x00000880      0x424 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.o
- .debug_frame   0x00000ca4      0x200 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.o
- .debug_frame   0x00000ea4      0x138 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.o
- .debug_frame   0x00000fdc      0x578 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd.o
- .debug_frame   0x00001554       0xb0 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pcd_ex.o
- .debug_frame   0x00001604      0x218 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.o
- .debug_frame   0x0000181c       0x84 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.o
- .debug_frame   0x000018a0     0x11ac Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.o
- .debug_frame   0x00002a4c      0x624 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.o
- .debug_frame   0x00003070      0x90c Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.o
- .debug_frame   0x0000397c      0x450 Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_ll_usb.o
- .debug_frame   0x00003dcc      0x248 Middlewares\ST\STM32_USB_Device_Library\Class\CDC\Src\usbd_cdc.o
- .debug_frame   0x00004014      0x300 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_core.o
- .debug_frame   0x00004314      0x218 Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ctlreq.o
- .debug_frame   0x0000452c      0x10c Middlewares\ST\STM32_USB_Device_Library\Core\Src\usbd_ioreq.o
- .debug_frame   0x00004638      0x80c Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS\cmsis_os.o
- .debug_frame   0x00004e44       0xd8 Middlewares\Third_Party\FreeRTOS\Source\list.o
- .debug_frame   0x00004f1c      0x198 Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM3\port.o
- .debug_frame   0x000050b4      0x108 Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.o
- .debug_frame   0x000051bc      0x734 Middlewares\Third_Party\FreeRTOS\Source\tasks.o
- .debug_frame   0x000058f0       0x2c USB_DEVICE\App\usb_device.o
- .debug_frame   0x0000591c       0xbc USB_DEVICE\App\usbd_cdc_if.o
- .debug_frame   0x000059d8      0x160 USB_DEVICE\App\usbd_desc.o
- .debug_frame   0x00005b38      0x4a4 USB_DEVICE\Target\usbd_conf.o
- .debug_frame   0x00005fdc       0xe4 USER\MesageUSB.o
- .debug_frame   0x000060c0       0xf8 USER\SIM808\Sim808.o
- .debug_frame   0x000061b8       0x2c c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-init.o)
- .debug_frame   0x000061e4       0x20 c:/program files (x86)/atollic/truestudio for stm32 9.3.0/armtools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7-m\libc_nano.a(lib_a-memset.o)
->>>>>>> branch 'main' of https://github.com/uzfm/TrekerSIM868.git
